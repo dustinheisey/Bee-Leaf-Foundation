@@ -823,3 +823,33 @@
 
 /*.webp
   ! Content-Security-Policy
+
+/
+  Content-Security-Policy: base-uri 'self'; font-src 'self'; script-src-elem 'self' cdn.usefathom.com; style-src-elem 'self' 'unsafe-inline'
+
+/*/
+  Content-Security-Policy: base-uri 'self'; font-src 'self'; script-src-elem 'self' cdn.usefathom.com; style-src-elem 'self' 'unsafe-inline'
+
+/*.png
+  ! Content-Security-Policy
+
+/*.jpeg
+  ! Content-Security-Policy
+
+/*.webp
+  ! Content-Security-Policy
+
+/
+  Content-Security-Policy: base-uri 'self'; font-src 'self'; script-src-elem 'self' cdn.usefathom.com; style-src-elem 'self' 'unsafe-inline'
+
+/*/
+  Content-Security-Policy: base-uri 'self'; font-src 'self'; script-src-elem 'self' cdn.usefathom.com; style-src-elem 'self' 'unsafe-inline'
+
+/*.png
+  ! Content-Security-Policy
+
+/*.jpeg
+  ! Content-Security-Policy
+
+/*.webp
+  ! Content-Security-Policy

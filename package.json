@@ -5,16 +5,6 @@
     "build": "rm -rf sites/ && npx @11ty/eleventy"
   },
   "dependencies": {
-    "@11ty/eleventy-img": "^3.1.0",
-    "@11ty/eleventy-navigation": "^0.3.5",
-    "@11ty/eleventy-plugin-inclusive-language": "^1.0.3",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-    "@dh253/nds": "^1.0.0",
-    "@jackdbd/eleventy-plugin-content-security-policy": "^1.0.0",
-    "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
-    "eleventy-plugin-gen-favicons": "^1.1.2",
-    "eleventy-plugin-pwa-v2": "^1.0.0",
-    "eleventy-plugin-svg-sprite": "^2.4.0",
-    "html-minifier": "^4.0.0"
+    "@dh253/nds": "^1.0.1"
   }
 }
