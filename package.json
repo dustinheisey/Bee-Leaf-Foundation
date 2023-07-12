@@ -1,8 +1,8 @@
 {
   "name": "site-name",
   "scripts": {
-    "start": "rm -rf site/ && npx @11ty/eleventy --serve --incremental",
-    "build": "rm -rf sites/ && npx @11ty/eleventy"
+    "start": "rm -rf _site && npx @11ty/eleventy --serve --incremental",
+    "build": "rm -rf _site && npx @11ty/eleventy"
   },
   "dependencies": {
     "@dh253/nds": "^1.0.2"
