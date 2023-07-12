@@ -5,6 +5,6 @@
     "build": "rm -rf sites/ && npx @11ty/eleventy"
   },
   "dependencies": {
-    "@dh253/nds": "^1.0.1"
+    "@dh253/nds": "^1.0.2"
   }
 }
