@@ -1,2 +1,2 @@
 /*
-    Content-Security-Policy: base-uri 'self'; font-src 'self'; script-src-elem 'self'; style-src-elem 'self' 'unsafe-inline'
+    Content-Security-Policy: base-uri 'self'; font-src 'self'; script-src-elem 'unsafe-inline'; style-src-elem 'self' 'unsafe-inline'
