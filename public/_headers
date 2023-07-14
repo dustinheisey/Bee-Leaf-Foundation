@@ -1,4 +1,0 @@
-/*
-    Content-Security-Policy: base-uri 'self'; font-src 'self'; script-src-elem 'self' 'unsafe-inline'; style-src-elem 'self' 'unsafe-inline'
-    X-Robots-Tag: all
-
