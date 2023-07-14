@@ -1,0 +1,43 @@
+{
+  "name": "BeeLeaf Foundation - Championing the Survival of Bees",
+  "short_name": "BeeLeaf Foundation",
+  "description": "BeeLeaf Foundation is a passionate advocate for bee conservation. Through education, habitat preservation, and policy advocacy, we’re building a future where bees flourish.",
+  "theme_color": "#745b00",
+  "background_color": "#14100F",
+  "display": "fullscreen",
+  "start_url": "/",
+  "scope": "/",
+  "orientation": "portrait",
+  "display_override": [
+    "window-control-overlay",
+    "fullscreen",
+    "standalone",
+    "browser"
+  ],
+  "icons": [
+    {
+      "src": "manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

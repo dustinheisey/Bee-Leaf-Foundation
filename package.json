@@ -1,12 +1,14 @@
 {
   "name": "site-name",
   "scripts": {
-    "start": "rm -rf _site && npx @11ty/eleventy --serve --incremental",
-    "build": "rm -rf _site && npx @11ty/eleventy",
-    "node_modules": "rm -rf node_modules && sudo npm install"
+    "start": "rm -rf _site && npx @11ty/eleventy && npm run pwa && npx @11ty/eleventy --serve --incremental",
+    "build": "rm -rf _site && npx @11ty/eleventy && npm run pwa",
+    "node_modules": "rm -rf node_modules && sudo npm install",
+    "pwa": "pwa-asset-generator ./public/favicon.svg ./_site/ --opaque false --favicon --type png --log --index && pwa-asset-generator ./public/favicon.svg ./_site/ --background '#13100F' --padding '20%' --icon-only --log && pwa-asset-generator ./public/favicon.svg ./_site/ --background '#13100F' --splash-only --type png --padding '20%' --log"
   },
   "dependencies": {
-    "@dh253/nds": "^1.1.1"
+    "@dh253/nds": "^1.1.1",
+    "pwa-asset-generator": "^6.3.1"
   },
   "prettier": {
     "printWidth": 80,
