@@ -1,4 +1,2 @@
 /*
-    Content-Security-Policy: base-uri 'self'; font-src 'self'; script-src-elem 'self' cdn.usefathom.com; style-src-elem 'self' 'unsafe-inline'
-    Accept-Encoding: gzip
-    Content-Encoding: gzip
+    Content-Security-Policy: base-uri 'self'; font-src 'self'; script-src-elem 'self'; style-src-elem 'self' 'unsafe-inline'
