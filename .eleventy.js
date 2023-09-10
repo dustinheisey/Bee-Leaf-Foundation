@@ -2,6 +2,6 @@ const common = require('@dh253/nds')
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(common, {
-    domain: 'https://beeleaf.dustinheisey.com',
+    domain: 'https://urban-visionaries.dustinheisey.com',
   })
 }
