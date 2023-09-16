@@ -1,13 +1,13 @@
 {
-  "name": "site-name",
+  "name": "bee-leaf",
   "scripts": {
     "start": "rm -rf _site && npx @11ty/eleventy --quiet && npm run assets && npx @11ty/eleventy --serve --quiet --incremental",
     "build": "rm -rf _site && npx @11ty/eleventy && npm run assets",
-    "node_modules": "rm -rf node_modules && sudo npm install",
+    "npm": "sudo rm -rf node_modules && sudo npm install",
     "assets": "svgo -f ./public/svg -o ./_site/svg && pwa-asset-generator ./public/favicon.svg ./_site/favicon --opaque false --favicon --type png --index && pwa-asset-generator ./public/favicon.svg ./_site/favicon --background '#13100F' --padding '20%' --icon-only && pwa-asset-generator ./public/favicon.svg ./_site/favicon --background '#13100F' --splash-only --type png --padding '20%'"
   },
   "dependencies": {
-    "@dh253/nds": "^1.1.2",
+    "@dh253/nds": "^1.4.3",
     "pwa-asset-generator": "^6.3.1"
   },
   "prettier": {
